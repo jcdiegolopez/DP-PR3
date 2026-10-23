@@ -1,0 +1,100 @@
+{"id": "spider_00002", "pregunta": "Lista el año de creación, el nombre y el presupuesto de cada departamento. Devuelve: año de creación, nombre, presupuesto"}
+{"id": "spider_00004", "pregunta": "¿Cuál es el promedio de empleados de los departamentos cuyo ranking está entre 10 y 15? Devuelve: promedio de empleados"}
+{"id": "spider_00008", "pregunta": "¿En qué año se fundaron más departamentos? Devuelve: año de creación"}
+{"id": "spider_00010", "pregunta": "¿Cuántos estados de cargo interino distintos hay? Devuelve: cantidad"}
+{"id": "spider_00011", "pregunta": "¿Cuántos departamentos están dirigidos por jefes que no aparecen registrados? Devuelve: cantidad"}
+{"id": "spider_00013", "pregunta": "Lista los estados donde nacieron tanto el secretario del departamento 'Treasury' como el secretario de 'Homeland Security'. Devuelve: estado de nacimiento"}
+{"id": "spider_00017", "pregunta": "Cuenta el número de granjas. Devuelve: cantidad"}
+{"id": "spider_00019", "pregunta": "¿Cuál es el total de caballos de cada granja, ordenado de menor a mayor? Devuelve: total de caballos"}
+{"id": "spider_00023", "pregunta": "Muestra los temas de las competencias de granjas, ordenados por año de forma ascendente. Devuelve: tema"}
+{"id": "spider_00024", "pregunta": "¿Cuál es el promedio de caballos de trabajo de las granjas con más de 5000 caballos en total? Devuelve: promedio de caballos de trabajo"}
+{"id": "spider_00027", "pregunta": "Muestra el máximo y el mínimo número de vacas entre todas las granjas. Devuelve: máximo de vacas, mínimo de vacas"}
+{"id": "spider_00031", "pregunta": "¿Cuáles son los nombres oficiales de las ciudades, ordenados de mayor a menor población? Devuelve: nombre oficial"}
+{"id": "spider_00035", "pregunta": "Indica el año y el nombre oficial de la ciudad de cada competencia. Devuelve: año, nombre oficial"}
+{"id": "spider_00036", "pregunta": "Muestra los nombres oficiales de las ciudades que han sido sede de más de una competencia. Devuelve: nombre oficial"}
+{"id": "spider_00037", "pregunta": "¿Cuáles son los nombres oficiales de las ciudades que han sido sede de más de una competencia? Devuelve: nombre oficial"}
+{"id": "spider_00039", "pregunta": "¿Cuál es el estatus de la ciudad que ha sido sede de más competencias? Devuelve: estatus"}
+{"id": "spider_00044", "pregunta": "Muestra los distintos estatus, ordenados por la cantidad de ciudades que tiene cada uno, de menor a mayor. Devuelve: estatus"}
+{"id": "spider_00050", "pregunta": "Muestra el estatus compartido por ciudades con población mayor a 1500 y por ciudades con población menor a 500. Devuelve: estatus"}
+{"id": "spider_00051", "pregunta": "¿Qué estatus corresponden tanto a ciudades con población mayor a 1500 como a ciudades con población menor a 500? Devuelve: estatus"}
+{"id": "spider_00053", "pregunta": "¿Cuáles son los nombres oficiales de las ciudades con población mayor a 1500 o menor a 500? Devuelve: nombre oficial"}
+{"id": "spider_00060", "pregunta": "¿Cuál es el nombre y el apellido de todos los candidatos? Devuelve: nombre, apellido"}
+{"id": "spider_00062", "pregunta": "Lista el id de los estudiantes que nunca asisten a cursos. Devuelve: id del estudiante"}
+{"id": "spider_00068", "pregunta": "¿Qué detalles tenemos del estudiante que se registró más recientemente en cursos? Devuelve: detalles del estudiante"}
+{"id": "spider_00069", "pregunta": "¿Cuántos estudiantes asisten al curso English? Devuelve: cantidad"}
+{"id": "spider_00070", "pregunta": "¿Cuántos estudiantes están asistiendo a cursos de English? Devuelve: cantidad"}
+{"id": "spider_00071", "pregunta": "¿A cuántos cursos asiste el estudiante con id 171? Devuelve: cantidad"}
+{"id": "spider_00073", "pregunta": "Encuentra el id del candidato cuyo correo es stanley.monahan@example.org. Devuelve: id del candidato"}
+{"id": "spider_00076", "pregunta": "¿Cuál es el id del candidato que fue evaluado más recientemente? Devuelve: id del candidato"}
+{"id": "spider_00078", "pregunta": "¿Cuáles son los detalles del estudiante que se registró en el mayor número de cursos? Devuelve: detalles del estudiante"}
+{"id": "spider_00086", "pregunta": "¿Cuáles son los números de celular de los candidatos que recibieron el código de evaluación 'Fail'? Devuelve: número de celular"}
+{"id": "spider_00093", "pregunta": "Encuentra las ciudades distintas de las direcciones de los estudiantes. Devuelve: ciudad"}
+{"id": "spider_00099", "pregunta": "¿Cuáles son los ids de los estudiantes que se registraron en cursos o asistieron a cursos? Devuelve: id del estudiante"}
+{"id": "spider_00100", "pregunta": "¿Cuáles son los ids de los estudiantes que se registraron o asistieron a algún curso? Devuelve: id del estudiante"}
+{"id": "spider_00101", "pregunta": "Encuentra el id de los cursos en los que se registró o a los que asistió el estudiante con id 121. Devuelve: id del curso"}
+{"id": "spider_00102", "pregunta": "¿Cuáles son los ids de los cursos en los que se registró o a los que asistió el estudiante con id 121? Devuelve: id del curso"}
+{"id": "spider_00103", "pregunta": "¿Cuál es toda la información de los estudiantes que se registraron en cursos pero no asistieron a ninguno? Devuelve: todas las columnas del registro"}
+{"id": "spider_00104", "pregunta": "¿Cuáles son todos los detalles de los estudiantes que se registraron pero no asistieron a ningún curso? Devuelve: todas las columnas del registro"}
+{"id": "spider_00107", "pregunta": "Lista el id de los estudiantes que asistieron a cursos de 'statistics', ordenados por fecha de asistencia. Devuelve: id del estudiante"}
+{"id": "spider_00108", "pregunta": "¿Cuáles son los ids de los estudiantes que asistieron a cursos de 'statistics', en orden de fecha de asistencia? Devuelve: id del estudiante"}
+{"id": "spider_00113", "pregunta": "Para cada ciudad, muestra la latitud más alta entre sus estaciones. Devuelve: ciudad, latitud máxima"}
+{"id": "spider_00116", "pregunta": "¿Cuál es la estación de inicio y la estación final de los tres viajes con los ids más pequeños? Devuelve: estación de inicio, estación final"}
+{"id": "spider_00126", "pregunta": "¿Cuántos ids de bicicleta distintos hay? Devuelve: cantidad"}
+{"id": "spider_00141", "pregunta": "¿Cuáles son los ids de las estaciones ubicadas en 'San Francisco' con disponibilidad promedio de bicicletas mayor a 10? Devuelve: id de la estación"}
+{"id": "spider_00142", "pregunta": "¿Cuáles son los ids de las estaciones de 'San Francisco' que normalmente tienen más de 10 bicicletas disponibles? Devuelve: id de la estación"}
+{"id": "spider_00144", "pregunta": "¿Cuáles son los nombres e ids de las estaciones que tienen en promedio más de 14 bicicletas disponibles o cuya fecha de instalación es en diciembre? Devuelve: nombre, id"}
+{"id": "spider_00149", "pregunta": "¿Cuál es la disponibilidad promedio de bicicletas en las estaciones que no están en 'Palo Alto'? Devuelve: promedio de bicicletas disponibles"}
+{"id": "spider_00150", "pregunta": "¿Cuál es la disponibilidad promedio de bicicletas en las estaciones fuera de 'Palo Alto'? Devuelve: promedio de bicicletas disponibles"}
+{"id": "spider_00151", "pregunta": "¿Cuál es la longitud promedio de las estaciones que nunca tuvieron más de 10 bicicletas disponibles? Devuelve: longitud promedio"}
+{"id": "spider_00152", "pregunta": "¿Cuál es la longitud media de todas las estaciones que nunca han tenido más de 10 bicicletas disponibles? Devuelve: longitud promedio"}
+{"id": "spider_00162", "pregunta": "¿Cuál es la fecha de instalación de la estación final de cada viaje? Devuelve: id del viaje, fecha de instalación"}
+{"id": "spider_00169", "pregunta": "¿Cuáles son los ids de las estaciones con latitud mayor a 37.4 y que nunca tuvieron menos de 7 bicicletas disponibles? Devuelve: id de la estación"}
+{"id": "spider_00170", "pregunta": "¿Cuáles son los ids de todas las estaciones con latitud mayor a 37.4 y que nunca han tenido menos de 7 bicicletas disponibles? Devuelve: id de la estación"}
+{"id": "spider_00178", "pregunta": "¿Cuál es el nombre de cada ciudad que tiene al menos 15 estaciones y cuántas estaciones tiene? Devuelve: ciudad, cantidad de estaciones"}
+{"id": "spider_00182", "pregunta": "Para cada código postal, selecciona los que tienen una visibilidad media promedio menor a 10. Devuelve: código postal"}
+{"id": "spider_00183", "pregunta": "Lista todas las ciudades en orden descendente según la latitud más alta de sus estaciones. Devuelve: ciudad"}
+{"id": "spider_00184", "pregunta": "Para cada ciudad, lista su nombre en orden descendente según la latitud más alta de sus estaciones. Devuelve: ciudad"}
+{"id": "spider_00189", "pregunta": "Para cada estación, indica su longitud y la duración promedio de los viajes que salieron de ella. Devuelve: nombre de la estación, longitud, duración promedio"}
+{"id": "spider_00191", "pregunta": "Para cada estación, encuentra su latitud y la duración mínima de los viajes que terminaron en ella. Devuelve: nombre de la estación, latitud, duración mínima"}
+{"id": "spider_00198", "pregunta": "¿Cuáles son los ids de los viajes cuya duración es igual o mayor al promedio de duración de los viajes con código postal 94103? Devuelve: id del viaje"}
+{"id": "spider_00199", "pregunta": "¿En qué fechas la presión media al nivel del mar estuvo entre 30.3 y 31? Devuelve: fecha"}
+{"id": "spider_00207", "pregunta": "¿Cuáles son los nombres de las estaciones ubicadas en la ciudad de 'Palo Alto' que nunca han sido el punto final de más de 100 viajes? Devuelve: nombre de la estación"}
+{"id": "spider_00208", "pregunta": "¿Cuáles son los nombres de las estaciones ubicadas en 'Palo Alto' que nunca han sido el punto final de viajes? Devuelve: nombre de la estación"}
+{"id": "spider_00229", "pregunta": "Lista los títulos de los libros que no están publicados. Devuelve: título"}
+{"id": "spider_00230", "pregunta": "Muestra las editoriales que tienen publicaciones con precio mayor a 10000000 y publicaciones con precio menor a 5000000. Devuelve: editorial"}
+{"id": "spider_00232", "pregunta": "¿Cuántas fechas de publicación distintas hay en nuestros registros? Devuelve: cantidad"}
+{"id": "spider_00242", "pregunta": "¿Cuáles son los personajes de los actores en orden descendente de edad? Devuelve: personaje"}
+{"id": "spider_00245", "pregunta": "Muestra la duración del actor de mayor edad. Devuelve: duración"}
+{"id": "spider_00251", "pregunta": "¿Cuáles son los nombres de los actores y de los musicales en los que participan? Devuelve: nombre del actor, nombre del musical"}
+{"id": "spider_00256", "pregunta": "Muestra los nombres de los musicales y el número de actores que han aparecido en ellos. Devuelve: nombre del musical, cantidad de actores"}
+{"id": "spider_00258", "pregunta": "Muestra los nombres de los musicales que tienen al menos tres actores. Devuelve: nombre del musical"}
+{"id": "spider_00260", "pregunta": "Muestra los distintos nominados y el número de musicales por los que han sido nominados. Devuelve: nominado, cantidad"}
+{"id": "spider_00270", "pregunta": "Muestra los nominados que han sido nominados con musicales tanto a 'Tony Award' como a 'Drama Desk Award'. Devuelve: nominado"}
+{"id": "spider_00271", "pregunta": "¿Quiénes son los nominados que han sido nominados tanto al 'Tony Award' como al 'Drama Desk Award'? Devuelve: nominado"}
+{"id": "spider_00275", "pregunta": "¿Cuál es el id de partición del usuario llamado 'Iron Man'? Devuelve: id de partición"}
+{"id": "spider_00280", "pregunta": "Encuentra el número de usuarios que publicaron algún tuit. Devuelve: cantidad"}
+{"id": "spider_00285", "pregunta": "Encuentra los nombres de los usuarios cuyo número de seguidores es mayor que el del usuario llamado 'Tyler Swift'. Devuelve: nombre"}
+{"id": "spider_00291", "pregunta": "Encuentra el nombre y el correo del usuario seguido por la menor cantidad de personas. Devuelve: nombre, correo"}
+{"id": "spider_00292", "pregunta": "Lista el nombre y el número de seguidores de cada usuario, ordenados por número de seguidores de mayor a menor. Devuelve: nombre, seguidores"}
+{"id": "spider_00296", "pregunta": "Encuentra el nombre y el id de partición de los usuarios que tuitearon menos de dos veces. Devuelve: nombre, id de partición"}
+{"id": "spider_00298", "pregunta": "Encuentra el promedio de seguidores de los usuarios que no tienen ningún tuit. Devuelve: promedio de seguidores"}
+{"id": "spider_00299", "pregunta": "Encuentra el promedio de seguidores de los usuarios que tienen algún tuit. Devuelve: promedio de seguidores"}
+{"id": "spider_00301", "pregunta": "Encuentra los nombres de todas las entradas del catálogo. Devuelve: nombre de la entrada"}
+{"id": "spider_00303", "pregunta": "Encuentra la lista de tipos de datos de atributo que poseen más de 3 definiciones de atributo. Devuelve: tipo de dato del atributo"}
+{"id": "spider_00305", "pregunta": "¿Cuál es el tipo de dato del atributo llamado 'Green'? Devuelve: tipo de dato del atributo"}
+{"id": "spider_00306", "pregunta": "Encuentra el tipo de dato del atributo con nombre 'Green'. Devuelve: tipo de dato del atributo"}
+{"id": "spider_00307", "pregunta": "Encuentra el nombre y el nivel de la estructura del catálogo con nivel entre 5 y 10. Devuelve: nombre del nivel, número del nivel"}
+{"id": "spider_00315", "pregunta": "¿Cuáles son los nombres de las entradas del catálogo con el atributo que poseen más entradas? Devuelve: nombre de la entrada"}
+{"id": "spider_00316", "pregunta": "Encuentra los nombres de las entradas del catálogo con el atributo que tiene más entradas. Devuelve: nombre de la entrada"}
+{"id": "spider_00322", "pregunta": "Dame el precio promedio y el precio mínimo (en euros) de los productos. Devuelve: precio promedio, precio mínimo"}
+{"id": "spider_00325", "pregunta": "Encuentra el nombre del producto que tiene la menor capacidad. Devuelve: nombre del producto"}
+{"id": "spider_00329", "pregunta": "Encuentra los nombres de las entradas del catálogo con número de nivel 8. Devuelve: nombre de la entrada"}
+{"id": "spider_00333", "pregunta": "Encuentra el nombre y el id de atributo de las definiciones de atributo con valor de atributo 0. Devuelve: nombre del atributo, id del atributo"}
+{"id": "spider_00338", "pregunta": "¿En qué días se hizo más de una revisión de los catálogos? Devuelve: fecha de la última revisión"}
+{"id": "spider_00350", "pregunta": "¿Cuántas aeronaves tienen una distancia entre 1000 y 5000? Devuelve: cantidad"}
+{"id": "spider_00351", "pregunta": "¿Cuál es el nombre y la distancia de la aeronave con id 12? Devuelve: nombre, distancia"}
+{"id": "spider_00354", "pregunta": "Muestra la distancia mínima, promedio y máxima recorrida entre todas las aeronaves. Devuelve: distancia mínima, distancia promedio, distancia máxima"}
+{"id": "spider_00357", "pregunta": "Muestra el nombre de las tres aeronaves con las distancias más bajas. Devuelve: nombre"}
+{"id": "spider_00359", "pregunta": "Muestra los nombres de todas las aeronaves con distancias mayores al promedio. Devuelve: nombre"}
+{"id": "spider_00360", "pregunta": "¿Cuáles son los nombres de todas las aeronaves que pueden recorrer más distancia que el promedio? Devuelve: nombre"}
+{"id": "spider_00366", "pregunta": "¿Cuál es el id de cada empleado que tiene un salario de más de 100000? Devuelve: id del empleado"}

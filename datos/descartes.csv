@@ -1,0 +1,621 @@
+id,fuente,motivo,detalle
+spider_00048,spider,resultado_vacio,
+spider_00049,spider,resultado_vacio,
+spider_00109,spider,resultado_distinto,
+spider_00110,spider,resultado_distinto,
+spider_00133,spider,error_mysql,"(1055, ""Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_bike_1.trip.start_station_id' which is not functionally dependent on columns in GROUP BY clause; th"
+spider_00134,spider,error_mysql,"(1055, ""Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_bike_1.trip.start_station_id' which is not functionally dependent on columns in GROUP BY clause; th"
+spider_00135,spider,resultado_distinto,
+spider_00136,spider,resultado_distinto,
+spider_00137,spider,resultado_distinto,
+spider_00138,spider,resultado_distinto,
+spider_00145,spider,resultado_distinto,
+spider_00146,spider,resultado_distinto,
+spider_00153,spider,resultado_distinto,
+spider_00154,spider,resultado_distinto,
+spider_00155,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_bike_1.T1.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatib"
+spider_00156,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_bike_1.T1.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatib"
+spider_00157,spider,resultado_distinto,
+spider_00158,spider,resultado_distinto,
+spider_00159,spider,resultado_distinto,
+spider_00160,spider,resultado_distinto,
+spider_00167,spider,resultado_distinto,
+spider_00168,spider,resultado_distinto,
+spider_00175,spider,resultado_distinto,
+spider_00176,spider,resultado_distinto,
+spider_00179,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_bike_1.trip.start_station_id' which is not functionally dependent on columns in GROUP BY clause; th"
+spider_00180,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_bike_1.trip.start_station_id' which is not functionally dependent on columns in GROUP BY clause; th"
+spider_00185,spider,resultado_distinto,
+spider_00186,spider,resultado_distinto,
+spider_00195,spider,resultado_distinto,
+spider_00196,spider,resultado_distinto,
+spider_00205,spider,resultado_distinto,
+spider_00206,spider,resultado_distinto,
+spider_00288,spider,resultado_vacio,
+spider_00311,spider,resultado_distinto,
+spider_00312,spider,resultado_distinto,
+spider_00409,spider,resultado_distinto,
+spider_00410,spider,resultado_distinto,
+spider_00437,spider,resultado_distinto,
+spider_00438,spider,resultado_distinto,
+spider_00635,spider,resultado_vacio,
+spider_00636,spider,resultado_vacio,
+spider_00643,spider,resultado_vacio,
+spider_00644,spider,resultado_vacio,
+spider_00645,spider,resultado_vacio,
+spider_00646,spider,resultado_vacio,
+spider_00656,spider,resultado_distinto,
+spider_00681,spider,resultado_distinto,
+spider_00682,spider,resultado_distinto,
+spider_00713,spider,resultado_distinto,
+spider_00714,spider,resultado_distinto,
+spider_00717,spider,resultado_distinto,
+spider_00718,spider,resultado_distinto,
+spider_00777,spider,resultado_vacio,
+spider_00778,spider,resultado_vacio,
+spider_00787,spider,resultado_vacio,
+spider_00788,spider,resultado_vacio,
+spider_00817,spider,resultado_distinto,
+spider_00818,spider,resultado_distinto,
+spider_00869,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_chinook_1.T1.FirstName' which is not functionally dependent on columns in GROUP BY clause; this is "
+spider_00870,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_chinook_1.T1.FirstName' which is not functionally dependent on columns in GROUP BY clause; this is "
+spider_00871,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_chinook_1.T1.LastName' which is not functionally dependent on columns in GROUP BY clause; this is i"
+spider_00872,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_chinook_1.T1.LastName' which is not functionally dependent on columns in GROUP BY clause; this is i"
+spider_00923,spider,resultado_vacio,
+spider_00924,spider,resultado_vacio,
+spider_01024,spider,resultado_distinto,
+spider_01036,spider,resultado_distinto,
+spider_01039,spider,error_mysql,"(1054, ""Unknown column 't2.Company_name' in 'where clause'"")"
+spider_01040,spider,error_mysql,"(1054, ""Unknown column 't2.Company_name' in 'where clause'"")"
+spider_01126,spider,error_mysql,"(3065, ""Expression #1 of ORDER BY clause is not in SELECT list, references column 'sp_climbing.mountain.Prominence' which is not in SELECT list; this is incompatible with DISTINCT"")"
+spider_01127,spider,error_mysql,"(3065, ""Expression #1 of ORDER BY clause is not in SELECT list, references column 'sp_climbing.mountain.Prominence' which is not in SELECT list; this is incompatible with DISTINCT"")"
+spider_01165,spider,resultado_vacio,
+spider_01258,spider,error_mysql,"(1055, ""Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_apartment_rentals.Apartments.bathroom_count' which is not functionally dependent on columns in GROU"
+spider_01259,spider,error_mysql,"(1055, ""Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_apartment_rentals.Apartments.bathroom_count' which is not functionally dependent on columns in GROU"
+spider_01305,spider,error_mysql,"(3065, ""Expression #1 of ORDER BY clause is not in SELECT list, references column 'sp_soccer_1.T2.overall_rating' which is not in SELECT list; this is incompatible with DISTINCT"")"
+spider_01306,spider,error_mysql,"(3065, ""Expression #1 of ORDER BY clause is not in SELECT list, references column 'sp_soccer_1.T2.potential' which is not in SELECT list; this is incompatible with DISTINCT"")"
+spider_01316,spider,resultado_vacio,
+spider_01332,spider,resultado_distinto,
+spider_01333,spider,resultado_distinto,
+spider_01390,spider,resultado_vacio,
+spider_01391,spider,resultado_vacio,
+spider_01404,spider,resultado_distinto,
+spider_01405,spider,resultado_distinto,
+spider_01430,spider,resultado_vacio,
+spider_01431,spider,resultado_vacio,
+spider_01438,spider,resultado_distinto,
+spider_01439,spider,resultado_distinto,
+spider_01456,spider,resultado_vacio,
+spider_01457,spider,resultado_vacio,
+spider_01470,spider,resultado_vacio,
+spider_01471,spider,resultado_vacio,
+spider_01472,spider,resultado_vacio,
+spider_01473,spider,resultado_vacio,
+spider_01478,spider,resultado_vacio,
+spider_01479,spider,resultado_vacio,
+spider_01567,spider,resultado_distinto,
+spider_01568,spider,resultado_distinto,
+spider_01579,spider,error_mysql,"(1140, ""In aggregated query without GROUP BY, expression #2 of SELECT list contains nonaggregated column 'sp_customers_and_invoices.Financial_Transactions.account_id'; this is incompatible with sql_mo"
+spider_01580,spider,error_mysql,"(1140, ""In aggregated query without GROUP BY, expression #2 of SELECT list contains nonaggregated column 'sp_customers_and_invoices.Financial_Transactions.account_id'; this is incompatible with sql_mo"
+spider_01611,spider,resultado_distinto,
+spider_01612,spider,resultado_distinto,
+spider_01632,spider,resultado_vacio,
+spider_01637,spider,resultado_vacio,
+spider_01643,spider,resultado_vacio,
+spider_01644,spider,resultado_vacio,
+spider_01683,spider,resultado_vacio,
+spider_01684,spider,resultado_vacio,
+spider_01701,spider,resultado_vacio,
+spider_01702,spider,resultado_vacio,
+spider_01726,spider,resultado_distinto,
+spider_01735,spider,error_mysql,"(1055, ""Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_riding_club.T1.Gold' which is not functionally dependent on columns in GROUP BY clause; this is inc"
+spider_01836,spider,resultado_distinto,
+spider_01862,spider,resultado_distinto,
+spider_01863,spider,resultado_distinto,
+spider_01870,spider,resultado_distinto,
+spider_01871,spider,resultado_distinto,
+spider_01895,spider,resultado_vacio,
+spider_01897,spider,resultado_vacio,
+spider_01908,spider,error_mysql,"(1248, 'Every derived table must have its own alias')"
+spider_01954,spider,resultado_vacio,
+spider_02011,spider,resultado_vacio,
+spider_02012,spider,resultado_vacio,
+spider_02041,spider,error_mysql,"(3065, ""Expression #1 of ORDER BY clause is not in SELECT list, references column 'sp_party_people.region.Label' which is not in SELECT list; this is incompatible with DISTINCT"")"
+spider_02042,spider,error_mysql,"(3065, ""Expression #1 of ORDER BY clause is not in SELECT list, references column 'sp_party_people.region.Label' which is not in SELECT list; this is incompatible with DISTINCT"")"
+spider_02065,spider,resultado_vacio,
+spider_02066,spider,resultado_vacio,
+spider_02129,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_cre_Doc_Control_Systems.Employees.employee_name' which is not functionally dependent on columns in "
+spider_02161,spider,resultado_vacio,
+spider_02162,spider,resultado_vacio,
+spider_02163,spider,resultado_vacio,
+spider_02164,spider,resultado_vacio,
+spider_02165,spider,resultado_vacio,
+spider_02166,spider,resultado_vacio,
+spider_02167,spider,resultado_vacio,
+spider_02168,spider,resultado_vacio,
+spider_02169,spider,resultado_vacio,
+spider_02170,spider,resultado_vacio,
+spider_02195,spider,resultado_vacio,
+spider_02196,spider,resultado_vacio,
+spider_02197,spider,resultado_vacio,
+spider_02198,spider,resultado_vacio,
+spider_02199,spider,resultado_distinto,
+spider_02200,spider,resultado_distinto,
+spider_02209,spider,resultado_vacio,
+spider_02210,spider,resultado_vacio,
+spider_02223,spider,error_mysql,"(1055, ""Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_formula_1.T1.year' which is not functionally dependent on columns in GROUP BY clause; this is incom"
+spider_02224,spider,error_mysql,"(1055, ""Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_formula_1.T1.year' which is not functionally dependent on columns in GROUP BY clause; this is incom"
+spider_02225,spider,error_mysql,"(1055, ""Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_formula_1.T1.year' which is not functionally dependent on columns in GROUP BY clause; this is incom"
+spider_02226,spider,error_mysql,"(1055, ""Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_formula_1.T1.year' which is not functionally dependent on columns in GROUP BY clause; this is incom"
+spider_02330,spider,resultado_vacio,
+spider_02331,spider,resultado_vacio,
+spider_02336,spider,error_mysql,"(1054, ""Unknown column 't1.campus' in 'where clause'"")"
+spider_02337,spider,error_mysql,"(1054, ""Unknown column 't1.campus' in 'where clause'"")"
+spider_02338,spider,error_mysql,"(1054, ""Unknown column 't1.campus' in 'where clause'"")"
+spider_02339,spider,error_mysql,"(1054, ""Unknown column 't1.campus' in 'where clause'"")"
+spider_02362,spider,error_mysql,"(1054, ""Unknown column 'T1.campus' in 'field list'"")"
+spider_02363,spider,error_mysql,"(1054, ""Unknown column 'T1.campus' in 'field list'"")"
+spider_02368,spider,error_mysql,"(1054, ""Unknown column 't1.campus' in 'where clause'"")"
+spider_02369,spider,error_mysql,"(1054, ""Unknown column 't1.campus' in 'where clause'"")"
+spider_02370,spider,error_mysql,"(1054, ""Unknown column 't1.campus' in 'where clause'"")"
+spider_02371,spider,error_mysql,"(1054, ""Unknown column 't1.campus' in 'where clause'"")"
+spider_02378,spider,error_mysql,"(1054, ""Unknown column 'T1.campus' in 'field list'"")"
+spider_02379,spider,error_mysql,"(1054, ""Unknown column 'T1.campus' in 'field list'"")"
+spider_02380,spider,error_mysql,"(1054, ""Unknown column 't2.year' in 'where clause'"")"
+spider_02381,spider,error_mysql,"(1054, ""Unknown column 't2.year' in 'where clause'"")"
+spider_02382,spider,error_mysql,"(1054, ""Unknown column 't2.year' in 'where clause'"")"
+spider_02383,spider,error_mysql,"(1054, ""Unknown column 't2.year' in 'where clause'"")"
+spider_02388,spider,resultado_vacio,
+spider_02389,spider,resultado_vacio,
+spider_02390,spider,resultado_vacio,
+spider_02391,spider,resultado_vacio,
+spider_02416,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_candidate_poll.t1.Name' which is not functionally dependent on columns in GROUP BY clause; this is "
+spider_02417,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_candidate_poll.t1.Name' which is not functionally dependent on columns in GROUP BY clause; this is "
+spider_02460,spider,resultado_vacio,
+spider_02461,spider,resultado_vacio,
+spider_02462,spider,error_mysql,"(1140, ""In aggregated query without GROUP BY, expression #2 of SELECT list contains nonaggregated column 'sp_movie_1.T2.title'; this is incompatible with sql_mode=only_full_group_by"")"
+spider_02463,spider,error_mysql,"(1140, ""In aggregated query without GROUP BY, expression #2 of SELECT list contains nonaggregated column 'sp_movie_1.T2.title'; this is incompatible with sql_mode=only_full_group_by"")"
+spider_02466,spider,error_mysql,"(1140, ""In aggregated query without GROUP BY, expression #2 of SELECT list contains nonaggregated column 'sp_movie_1.T2.year'; this is incompatible with sql_mode=only_full_group_by"")"
+spider_02467,spider,error_mysql,"(1140, ""In aggregated query without GROUP BY, expression #2 of SELECT list contains nonaggregated column 'sp_movie_1.T2.year'; this is incompatible with sql_mode=only_full_group_by"")"
+spider_02502,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_movie_1.T2.title' which is not functionally dependent on columns in GROUP BY clause; this is incomp"
+spider_02503,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_movie_1.T2.title' which is not functionally dependent on columns in GROUP BY clause; this is incomp"
+spider_02504,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_movie_1.T2.title' which is not functionally dependent on columns in GROUP BY clause; this is incomp"
+spider_02505,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_movie_1.T2.title' which is not functionally dependent on columns in GROUP BY clause; this is incomp"
+spider_02506,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_movie_1.T2.title' which is not functionally dependent on columns in GROUP BY clause; this is incomp"
+spider_02507,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_movie_1.T2.title' which is not functionally dependent on columns in GROUP BY clause; this is incomp"
+spider_02508,spider,resultado_distinto,
+spider_02509,spider,resultado_distinto,
+spider_02564,spider,resultado_vacio,
+spider_02565,spider,resultado_vacio,
+spider_02582,spider,error_mysql,"(1055, ""Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_inn_1.T1.Rate' which is not functionally dependent on columns in GROUP BY clause; this is incompati"
+spider_02583,spider,error_mysql,"(1055, ""Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_inn_1.T1.Rate' which is not functionally dependent on columns in GROUP BY clause; this is incompati"
+spider_02584,spider,resultado_vacio,
+spider_02585,spider,resultado_vacio,
+spider_02586,spider,resultado_vacio,
+spider_02587,spider,resultado_vacio,
+spider_02657,spider,resultado_vacio,
+spider_02716,spider,resultado_distinto,
+spider_02717,spider,resultado_distinto,
+spider_02836,spider,error_mysql,"(1054, ""Unknown column 'Restaurant_Type.ResTypeName' in 'having clause'"")"
+spider_02841,spider,resultado_distinto,
+spider_02843,spider,resultado_distinto,
+spider_02856,spider,resultado_distinto,
+spider_02880,spider,resultado_vacio,
+spider_02881,spider,resultado_vacio,
+spider_02934,spider,resultado_distinto,
+spider_02935,spider,resultado_distinto,
+spider_02948,spider,resultado_distinto,
+spider_02949,spider,resultado_distinto,
+spider_02966,spider,resultado_distinto,
+spider_02967,spider,resultado_distinto,
+spider_02974,spider,resultado_vacio,
+spider_02975,spider,resultado_vacio,
+spider_02976,spider,resultado_vacio,
+spider_02977,spider,resultado_vacio,
+spider_02978,spider,resultado_vacio,
+spider_02979,spider,resultado_vacio,
+spider_02996,spider,resultado_vacio,
+spider_02997,spider,resultado_vacio,
+spider_03002,spider,resultado_vacio,
+spider_03003,spider,resultado_vacio,
+spider_03036,spider,resultado_vacio,
+spider_03037,spider,resultado_vacio,
+spider_03064,spider,error_mysql,"(1055, ""Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_loan_1.T1.acc_type' which is not functionally dependent on columns in GROUP BY clause; this is inco"
+spider_03065,spider,error_mysql,"(1055, ""Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_loan_1.T1.acc_type' which is not functionally dependent on columns in GROUP BY clause; this is inco"
+spider_03105,spider,resultado_distinto,
+spider_03131,spider,resultado_distinto,
+spider_03153,spider,error_mysql,"(1146, ""Table 'sp_assets_maintenance.Ref_Company_Types' doesn't exist"")"
+spider_03269,spider,resultado_distinto,
+spider_03270,spider,resultado_distinto,
+spider_03271,spider,resultado_distinto,
+spider_03272,spider,resultado_distinto,
+spider_03331,spider,resultado_vacio,
+spider_03332,spider,resultado_vacio,
+spider_03363,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_sports_competition.player.Position' which is not functionally dependent on columns in GROUP BY clau"
+spider_03364,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_sports_competition.player.Position' which is not functionally dependent on columns in GROUP BY clau"
+spider_03393,spider,resultado_distinto,
+spider_03411,spider,resultado_distinto,
+spider_03412,spider,resultado_distinto,
+spider_03425,spider,resultado_distinto,
+spider_03426,spider,resultado_distinto,
+spider_03429,spider,resultado_vacio,
+spider_03430,spider,resultado_vacio,
+spider_03433,spider,resultado_distinto,
+spider_03434,spider,resultado_distinto,
+spider_03445,spider,resultado_distinto,
+spider_03446,spider,resultado_distinto,
+spider_03453,spider,resultado_distinto,
+spider_03454,spider,resultado_distinto,
+spider_03457,spider,resultado_vacio,
+spider_03458,spider,resultado_vacio,
+spider_03515,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_hr_1.employees.FIRST_NAME' which is not functionally dependent on columns in GROUP BY clause; this "
+spider_03516,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_hr_1.employees.FIRST_NAME' which is not functionally dependent on columns in GROUP BY clause; this "
+spider_03565,spider,resultado_distinto,
+spider_03566,spider,resultado_distinto,
+spider_03587,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_music_1.song.artist_name' which is not functionally dependent on columns in GROUP BY clause; this i"
+spider_03588,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_music_1.song.artist_name' which is not functionally dependent on columns in GROUP BY clause; this i"
+spider_03609,spider,resultado_distinto,
+spider_03610,spider,resultado_distinto,
+spider_03615,spider,resultado_vacio,
+spider_03616,spider,resultado_vacio,
+spider_03619,spider,resultado_distinto,
+spider_03620,spider,resultado_distinto,
+spider_03629,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_baseball_1.T1.name_full' which is not functionally dependent on columns in GROUP BY clause; this is"
+spider_03630,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_baseball_1.T1.name_full' which is not functionally dependent on columns in GROUP BY clause; this is"
+spider_03635,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_baseball_1.T1.name_first' which is not functionally dependent on columns in GROUP BY clause; this i"
+spider_03636,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_baseball_1.T1.name_first' which is not functionally dependent on columns in GROUP BY clause; this i"
+spider_03641,spider,error_mysql,"(1055, ""Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_baseball_1.T2.rank' which is not functionally dependent on columns in GROUP BY clause; this is inco"
+spider_03642,spider,error_mysql,"(1055, ""Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_baseball_1.T2.rank' which is not functionally dependent on columns in GROUP BY clause; this is inco"
+spider_03643,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_baseball_1.T1.name_first' which is not functionally dependent on columns in GROUP BY clause; this i"
+spider_03644,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_baseball_1.T1.name_first' which is not functionally dependent on columns in GROUP BY clause; this i"
+spider_03647,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_baseball_1.T1.name_first' which is not functionally dependent on columns in GROUP BY clause; this i"
+spider_03648,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_baseball_1.T1.name_first' which is not functionally dependent on columns in GROUP BY clause; this i"
+spider_03649,spider,resultado_distinto,
+spider_03650,spider,resultado_distinto,
+spider_03657,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_baseball_1.T1.name' which is not functionally dependent on columns in GROUP BY clause; this is inco"
+spider_03658,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_baseball_1.T1.name' which is not functionally dependent on columns in GROUP BY clause; this is inco"
+spider_03659,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_baseball_1.T1.name' which is not functionally dependent on columns in GROUP BY clause; this is inco"
+spider_03660,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_baseball_1.T1.name' which is not functionally dependent on columns in GROUP BY clause; this is inco"
+spider_03661,spider,resultado_distinto,
+spider_03662,spider,resultado_distinto,
+spider_03663,spider,resultado_distinto,
+spider_03664,spider,resultado_distinto,
+spider_03669,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_baseball_1.T2.name' which is not functionally dependent on columns in GROUP BY clause; this is inco"
+spider_03670,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_baseball_1.T2.name' which is not functionally dependent on columns in GROUP BY clause; this is inco"
+spider_03673,spider,error_mysql,"(1248, 'Every derived table must have its own alias')"
+spider_03674,spider,error_mysql,"(1248, 'Every derived table must have its own alias')"
+spider_03766,spider,resultado_distinto,
+spider_03767,spider,resultado_distinto,
+spider_03806,spider,resultado_distinto,
+spider_03807,spider,resultado_distinto,
+spider_03824,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_e_learning.T1.course_description' which is not functionally dependent on columns in GROUP BY clause"
+spider_03825,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_e_learning.T1.course_description' which is not functionally dependent on columns in GROUP BY clause"
+spider_03846,spider,resultado_vacio,
+spider_03847,spider,resultado_vacio,
+spider_03848,spider,resultado_vacio,
+spider_03849,spider,resultado_vacio,
+spider_03908,spider,resultado_distinto,
+spider_03909,spider,resultado_distinto,
+spider_03944,spider,error_mysql,"(1055, ""Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_hospital_1.T1.Name' which is not functionally dependent on columns in GROUP BY clause; this is inco"
+spider_03945,spider,error_mysql,"(1055, ""Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_hospital_1.T1.Name' which is not functionally dependent on columns in GROUP BY clause; this is inco"
+spider_03982,spider,resultado_vacio,
+spider_03983,spider,resultado_vacio,
+spider_03986,spider,resultado_vacio,
+spider_03987,spider,resultado_vacio,
+spider_04058,spider,resultado_vacio,
+spider_04059,spider,resultado_vacio,
+spider_04060,spider,resultado_vacio,
+spider_04061,spider,resultado_vacio,
+spider_04062,spider,resultado_vacio,
+spider_04063,spider,resultado_vacio,
+spider_04064,spider,resultado_vacio,
+spider_04065,spider,resultado_vacio,
+spider_04142,spider,resultado_distinto,
+spider_04143,spider,resultado_distinto,
+spider_04156,spider,error_mysql,"(1054, ""Unknown column 't1.title' in 'field list'"")"
+spider_04157,spider,error_mysql,"(1054, ""Unknown column 't1.title' in 'field list'"")"
+spider_04210,spider,resultado_distinto,
+spider_04211,spider,resultado_distinto,
+spider_04272,spider,resultado_vacio,
+spider_04273,spider,resultado_vacio,
+spider_04278,spider,resultado_distinto,
+spider_04279,spider,resultado_distinto,
+spider_04310,spider,resultado_vacio,
+spider_04311,spider,resultado_vacio,
+spider_04326,spider,error_mysql,"(1235, ""This version of MySQL doesn't yet support 'LIMIT & IN/ALL/ANY/SOME subquery'"")"
+spider_04327,spider,error_mysql,"(1235, ""This version of MySQL doesn't yet support 'LIMIT & IN/ALL/ANY/SOME subquery'"")"
+spider_04330,spider,resultado_distinto,
+spider_04331,spider,resultado_distinto,
+spider_04340,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_tracking_grants_for_research.T1.task_details' which is not functionally dependent on columns in GRO"
+spider_04341,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_tracking_grants_for_research.T1.task_details' which is not functionally dependent on columns in GRO"
+spider_04360,spider,resultado_distinto,
+spider_04361,spider,resultado_distinto,
+spider_04384,spider,error_mysql,"(1235, ""This version of MySQL doesn't yet support 'LIMIT & IN/ALL/ANY/SOME subquery'"")"
+spider_04385,spider,error_mysql,"(1235, ""This version of MySQL doesn't yet support 'LIMIT & IN/ALL/ANY/SOME subquery'"")"
+spider_04444,spider,resultado_vacio,
+spider_04445,spider,resultado_vacio,
+spider_04456,spider,resultado_vacio,
+spider_04457,spider,resultado_vacio,
+spider_04458,spider,resultado_vacio,
+spider_04459,spider,resultado_vacio,
+spider_04460,spider,resultado_vacio,
+spider_04461,spider,resultado_vacio,
+spider_04480,spider,resultado_distinto,
+spider_04481,spider,resultado_distinto,
+spider_04513,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_document_management.Documents.document_name' which is not functionally dependent on columns in GROU"
+spider_04514,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_document_management.Documents.document_name' which is not functionally dependent on columns in GROU"
+spider_04521,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_document_management.Users.user_name' which is not functionally dependent on columns in GROUP BY cla"
+spider_04522,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_document_management.Users.user_name' which is not functionally dependent on columns in GROUP BY cla"
+spider_04527,spider,resultado_distinto,
+spider_04528,spider,resultado_distinto,
+spider_04619,spider,resultado_vacio,
+spider_04629,spider,resultado_distinto,
+spider_04671,spider,resultado_distinto,
+spider_04672,spider,resultado_distinto,
+spider_04677,spider,resultado_distinto,
+spider_04678,spider,resultado_distinto,
+spider_04681,spider,resultado_distinto,
+spider_04682,spider,resultado_distinto,
+spider_04697,spider,error_mysql,"(1054, ""Unknown column 'T3.DNO' in 'on clause'"")"
+spider_04698,spider,error_mysql,"(1054, ""Unknown column 'T3.DNO' in 'on clause'"")"
+spider_04703,spider,resultado_distinto,
+spider_04704,spider,resultado_distinto,
+spider_04707,spider,resultado_vacio,
+spider_04708,spider,resultado_vacio,
+spider_04733,spider,error_mysql,"(3065, ""Expression #1 of ORDER BY clause is not in SELECT list, references column 'sp_department_store.T2.customer_id' which is not in SELECT list; this is incompatible with DISTINCT"")"
+spider_04734,spider,error_mysql,"(3065, ""Expression #1 of ORDER BY clause is not in SELECT list, references column 'sp_department_store.T2.customer_id' which is not in SELECT list; this is incompatible with DISTINCT"")"
+spider_04773,spider,resultado_distinto,
+spider_04774,spider,resultado_distinto,
+spider_04823,spider,resultado_distinto,
+spider_04824,spider,resultado_distinto,
+spider_04831,spider,resultado_vacio,
+spider_04832,spider,resultado_vacio,
+spider_04833,spider,resultado_vacio,
+spider_04834,spider,resultado_vacio,
+spider_04845,spider,error_mysql,"(1055, ""Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_local_govt_and_lot.T1.other_details' which is not functionally dependent on columns in GROUP BY cla"
+spider_04846,spider,resultado_distinto,
+spider_04872,spider,resultado_distinto,
+spider_04873,spider,resultado_distinto,
+spider_04892,spider,resultado_vacio,
+spider_04893,spider,resultado_vacio,
+spider_04900,spider,error_mysql,"(3065, ""Expression #1 of ORDER BY clause is not in SELECT list, references column 'sp_store_product.district.City_Area' which is not in SELECT list; this is incompatible with DISTINCT"")"
+spider_04901,spider,error_mysql,"(3065, ""Expression #1 of ORDER BY clause is not in SELECT list, references column 'sp_store_product.district.City_Area' which is not in SELECT list; this is incompatible with DISTINCT"")"
+spider_04918,spider,resultado_vacio,
+spider_04919,spider,resultado_vacio,
+spider_04992,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_soccer_2.College.cName' which is not functionally dependent on columns in GROUP BY clause; this is "
+spider_04993,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_soccer_2.College.cName' which is not functionally dependent on columns in GROUP BY clause; this is "
+spider_05030,spider,error_mysql,"(1248, 'Every derived table must have its own alias')"
+spider_05031,spider,error_mysql,"(1248, 'Every derived table must have its own alias')"
+spider_05036,spider,error_mysql,"(1248, 'Every derived table must have its own alias')"
+spider_05037,spider,error_mysql,"(1248, 'Every derived table must have its own alias')"
+spider_05072,spider,resultado_distinto,
+spider_05073,spider,resultado_distinto,
+spider_05084,spider,resultado_vacio,
+spider_05085,spider,resultado_vacio,
+spider_05130,spider,resultado_distinto,
+spider_05131,spider,resultado_distinto,
+spider_05174,spider,resultado_vacio,
+spider_05175,spider,resultado_vacio,
+spider_05176,spider,resultado_vacio,
+spider_05177,spider,resultado_vacio,
+spider_05178,spider,resultado_vacio,
+spider_05179,spider,resultado_vacio,
+spider_05182,spider,resultado_vacio,
+spider_05183,spider,resultado_vacio,
+spider_05186,spider,resultado_vacio,
+spider_05187,spider,resultado_vacio,
+spider_05188,spider,resultado_vacio,
+spider_05189,spider,resultado_vacio,
+spider_05190,spider,resultado_vacio,
+spider_05191,spider,resultado_vacio,
+spider_05194,spider,resultado_vacio,
+spider_05195,spider,resultado_vacio,
+spider_05196,spider,resultado_vacio,
+spider_05197,spider,resultado_vacio,
+spider_05198,spider,resultado_vacio,
+spider_05199,spider,resultado_vacio,
+spider_05200,spider,resultado_vacio,
+spider_05201,spider,resultado_vacio,
+spider_05202,spider,resultado_vacio,
+spider_05203,spider,resultado_vacio,
+spider_05204,spider,resultado_vacio,
+spider_05205,spider,resultado_vacio,
+spider_05206,spider,resultado_vacio,
+spider_05207,spider,resultado_vacio,
+spider_05210,spider,resultado_vacio,
+spider_05211,spider,resultado_vacio,
+spider_05216,spider,resultado_vacio,
+spider_05217,spider,resultado_vacio,
+spider_05218,spider,resultado_vacio,
+spider_05219,spider,resultado_vacio,
+spider_05220,spider,resultado_vacio,
+spider_05221,spider,resultado_vacio,
+spider_05222,spider,resultado_vacio,
+spider_05223,spider,resultado_vacio,
+spider_05224,spider,resultado_vacio,
+spider_05225,spider,resultado_vacio,
+spider_05230,spider,resultado_vacio,
+spider_05231,spider,resultado_vacio,
+spider_05232,spider,resultado_vacio,
+spider_05233,spider,resultado_vacio,
+spider_05234,spider,resultado_vacio,
+spider_05235,spider,resultado_vacio,
+spider_05236,spider,resultado_vacio,
+spider_05237,spider,resultado_vacio,
+spider_05238,spider,resultado_vacio,
+spider_05239,spider,resultado_vacio,
+spider_05240,spider,resultado_vacio,
+spider_05241,spider,resultado_vacio,
+spider_05242,spider,resultado_vacio,
+spider_05243,spider,resultado_vacio,
+spider_05246,spider,resultado_vacio,
+spider_05247,spider,resultado_vacio,
+spider_05252,spider,resultado_vacio,
+spider_05253,spider,resultado_vacio,
+spider_05254,spider,resultado_vacio,
+spider_05255,spider,resultado_vacio,
+spider_05256,spider,resultado_vacio,
+spider_05257,spider,resultado_vacio,
+spider_05258,spider,error_mysql,"(1054, ""Unknown column 'T1.SongId' in 'on clause'"")"
+spider_05259,spider,error_mysql,"(1054, ""Unknown column 'T1.SongId' in 'on clause'"")"
+spider_05260,spider,resultado_vacio,
+spider_05261,spider,resultado_vacio,
+spider_05262,spider,resultado_vacio,
+spider_05263,spider,resultado_vacio,
+spider_05264,spider,resultado_vacio,
+spider_05265,spider,resultado_vacio,
+spider_05266,spider,resultado_vacio,
+spider_05267,spider,resultado_vacio,
+spider_05268,spider,error_mysql,"(1054, ""Unknown column 't1.label' in 'where clause'"")"
+spider_05269,spider,error_mysql,"(1054, ""Unknown column 't1.label' in 'where clause'"")"
+spider_05270,spider,error_mysql,"(1054, ""Unknown column 't1.type' in 'where clause'"")"
+spider_05271,spider,error_mysql,"(1054, ""Unknown column 't1.type' in 'where clause'"")"
+spider_05294,spider,resultado_vacio,
+spider_05295,spider,resultado_vacio,
+spider_05308,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_manufactory_1.Manufacturers.Name' which is not functionally dependent on columns in GROUP BY clause"
+spider_05309,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_manufactory_1.Manufacturers.Name' which is not functionally dependent on columns in GROUP BY clause"
+spider_05348,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_manufactory_1.T1.Name' which is not functionally dependent on columns in GROUP BY clause; this is i"
+spider_05349,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_manufactory_1.T1.Name' which is not functionally dependent on columns in GROUP BY clause; this is i"
+spider_05350,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_manufactory_1.Products.Code' which is not functionally dependent on columns in GROUP BY clause; thi"
+spider_05351,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_manufactory_1.Products.Code' which is not functionally dependent on columns in GROUP BY clause; thi"
+spider_05382,spider,error_mysql,"(3065, ""Expression #1 of ORDER BY clause is not in SELECT list, references column 'sp_tracking_software_problems.Product.product_id' which is not in SELECT list; this is incompatible with DISTINCT"")"
+spider_05383,spider,error_mysql,"(3065, ""Expression #1 of ORDER BY clause is not in SELECT list, references column 'sp_tracking_software_problems.Product.product_id' which is not in SELECT list; this is incompatible with DISTINCT"")"
+spider_05394,spider,resultado_vacio,
+spider_05395,spider,resultado_vacio,
+spider_05396,spider,resultado_vacio,
+spider_05397,spider,resultado_vacio,
+spider_05400,spider,resultado_distinto,
+spider_05401,spider,resultado_distinto,
+spider_05406,spider,resultado_distinto,
+spider_05407,spider,resultado_distinto,
+spider_05434,spider,resultado_distinto,
+spider_05435,spider,resultado_distinto,
+spider_05440,spider,resultado_vacio,
+spider_05441,spider,resultado_vacio,
+spider_05512,spider,resultado_distinto,
+spider_05513,spider,resultado_distinto,
+spider_05592,spider,resultado_distinto,
+spider_05593,spider,resultado_distinto,
+spider_05620,spider,resultado_distinto,
+spider_05643,spider,resultado_distinto,
+spider_05657,spider,resultado_distinto,
+spider_05692,spider,resultado_vacio,
+spider_05693,spider,resultado_vacio,
+spider_05712,spider,resultado_distinto,
+spider_05713,spider,resultado_distinto,
+spider_05754,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_dorm_1.T1.amenity_name' which is not functionally dependent on columns in GROUP BY clause; this is "
+spider_05755,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_dorm_1.T1.amenity_name' which is not functionally dependent on columns in GROUP BY clause; this is "
+spider_05756,spider,error_mysql,"(1235, ""This version of MySQL doesn't yet support 'LIMIT & IN/ALL/ANY/SOME subquery'"")"
+spider_05757,spider,error_mysql,"(1235, ""This version of MySQL doesn't yet support 'LIMIT & IN/ALL/ANY/SOME subquery'"")"
+spider_05758,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_dorm_1.T1.dorm_name' which is not functionally dependent on columns in GROUP BY clause; this is inc"
+spider_05759,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_dorm_1.T1.dorm_name' which is not functionally dependent on columns in GROUP BY clause; this is inc"
+spider_05772,spider,resultado_distinto,
+spider_05773,spider,resultado_distinto,
+spider_05778,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_customer_complaints.t1.product_name' which is not functionally dependent on columns in GROUP BY cla"
+spider_05779,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_customer_complaints.t1.product_name' which is not functionally dependent on columns in GROUP BY cla"
+spider_05790,spider,resultado_vacio,
+spider_05791,spider,resultado_vacio,
+spider_05812,spider,resultado_distinto,
+spider_05813,spider,resultado_distinto,
+spider_05828,spider,resultado_distinto,
+spider_05829,spider,resultado_distinto,
+spider_05830,spider,resultado_vacio,
+spider_05831,spider,resultado_vacio,
+spider_05856,spider,resultado_distinto,
+spider_05857,spider,resultado_distinto,
+spider_05858,spider,resultado_distinto,
+spider_05864,spider,resultado_distinto,
+spider_05865,spider,resultado_distinto,
+spider_05879,spider,resultado_distinto,
+spider_05882,spider,resultado_distinto,
+spider_05887,spider,resultado_distinto,
+spider_05888,spider,resultado_distinto,
+spider_05895,spider,resultado_distinto,
+spider_05896,spider,resultado_distinto,
+spider_05913,spider,resultado_distinto,
+spider_05914,spider,resultado_distinto,
+spider_05943,spider,resultado_distinto,
+spider_05944,spider,resultado_distinto,
+spider_05985,spider,resultado_distinto,
+spider_05986,spider,resultado_distinto,
+spider_06017,spider,resultado_distinto,
+spider_06018,spider,resultado_distinto,
+spider_06051,spider,resultado_vacio,
+spider_06052,spider,resultado_vacio,
+spider_06053,spider,resultado_vacio,
+spider_06054,spider,resultado_vacio,
+spider_06111,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_customers_and_addresses.t1.payment_method' which is not functionally dependent on columns in GROUP "
+spider_06112,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_customers_and_addresses.t1.payment_method' which is not functionally dependent on columns in GROUP "
+spider_06195,spider,resultado_distinto,
+spider_06196,spider,resultado_distinto,
+spider_06242,spider,resultado_distinto,
+spider_06243,spider,resultado_distinto,
+spider_06246,spider,resultado_distinto,
+spider_06247,spider,resultado_distinto,
+spider_06306,spider,error_mysql,"(1054, ""Unknown column 't1.gdp' in 'field list'"")"
+spider_06307,spider,error_mysql,"(1054, ""Unknown column 't1.gdp' in 'field list'"")"
+spider_06312,spider,resultado_distinto,
+spider_06313,spider,resultado_distinto,
+spider_06316,spider,resultado_distinto,
+spider_06317,spider,resultado_distinto,
+spider_06371,spider,error_mysql,"(1054, ""Unknown column 'T2.company_id' in 'on clause'"")"
+spider_06373,spider,error_mysql,"(1054, ""Unknown column 'T2.velocity' in 'where clause'"")"
+spider_06374,spider,error_mysql,"(1054, ""Unknown column 'T2.company_id' in 'on clause'"")"
+spider_06379,spider,error_mysql,"(1054, ""Unknown column 'T2.pilot' in 'field list'"")"
+spider_06381,spider,error_mysql,"(1054, ""Unknown column 'T2.airport_id' in 'on clause'"")"
+spider_06465,spider,resultado_vacio,
+spider_06466,spider,resultado_vacio,
+spider_06491,spider,resultado_vacio,
+spider_06492,spider,resultado_vacio,
+spider_06501,spider,resultado_vacio,
+spider_06502,spider,resultado_vacio,
+spider_06507,spider,resultado_vacio,
+spider_06508,spider,resultado_vacio,
+spider_06515,spider,resultado_vacio,
+spider_06516,spider,resultado_vacio,
+spider_06561,spider,error_mysql,"(3065, ""Expression #1 of ORDER BY clause is not in SELECT list, references column 'sp_wine_1.wine.Price' which is not in SELECT list; this is incompatible with DISTINCT"")"
+spider_06562,spider,error_mysql,"(3065, ""Expression #1 of ORDER BY clause is not in SELECT list, references column 'sp_wine_1.wine.Price' which is not in SELECT list; this is incompatible with DISTINCT"")"
+spider_06563,spider,error_mysql,"(1054, ""Unknown column 'T2.year' in 'having clause'"")"
+spider_06564,spider,error_mysql,"(1054, ""Unknown column 'T2.year' in 'having clause'"")"
+spider_06565,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_wine_1.T1.Color' which is not functionally dependent on columns in GROUP BY clause; this is incompa"
+spider_06566,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_wine_1.T1.Color' which is not functionally dependent on columns in GROUP BY clause; this is incompa"
+spider_06581,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_wine_1.T1.County' which is not functionally dependent on columns in GROUP BY clause; this is incomp"
+spider_06582,spider,error_mysql,"(1055, ""Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sp_wine_1.T1.County' which is not functionally dependent on columns in GROUP BY clause; this is incomp"
+spider_06595,spider,resultado_distinto,
+spider_06596,spider,resultado_distinto,
+spider_06604,spider,resultado_distinto,
+spider_06620,spider,error_mysql,"(1054, ""Unknown column 't4.location' in 'where clause'"")"
+spider_06745,spider,resultado_distinto,
+spider_06746,spider,resultado_distinto,
+spider_06783,spider,resultado_distinto,
+spider_06784,spider,resultado_distinto,
+spider_06791,spider,resultado_distinto,
+spider_06792,spider,resultado_distinto,
+spider_06845,spider,resultado_distinto,
+spider_06846,spider,resultado_distinto,
+spider_06849,spider,resultado_distinto,
+spider_06850,spider,resultado_distinto,
+spider_06851,spider,resultado_distinto,
+spider_06852,spider,resultado_distinto,
+spider_06853,spider,error_mysql,"(1248, 'Every derived table must have its own alias')"
+spider_06854,spider,error_mysql,"(1248, 'Every derived table must have its own alias')"
+spider_06855,spider,resultado_distinto,
+spider_06856,spider,resultado_distinto,
+spider_06857,spider,resultado_distinto,
+spider_06858,spider,resultado_distinto,
+spider_06865,spider,resultado_distinto,
+spider_06866,spider,resultado_distinto,
+spider_06897,spider,resultado_distinto,
+spider_06898,spider,resultado_distinto,
+spider_06899,spider,resultado_distinto,
+spider_06900,spider,resultado_distinto,
+spider_06927,spider,error_mysql,"(3065, ""Expression #1 of ORDER BY clause is not in SELECT list, references column 'sp_tracking_orders.Orders.date_order_placed' which is not in SELECT list; this is incompatible with DISTINCT"")"
+spider_06928,spider,error_mysql,"(3065, ""Expression #1 of ORDER BY clause is not in SELECT list, references column 'sp_tracking_orders.Orders.date_order_placed' which is not in SELECT list; this is incompatible with DISTINCT"")"
+spider_06931,spider,resultado_distinto,
+spider_06932,spider,resultado_distinto,
+spider_06947,spider,error_mysql,"(1140, ""In aggregated query without GROUP BY, expression #2 of SELECT list contains nonaggregated column 'sp_architecture.T2.name'; this is incompatible with sql_mode=only_full_group_by"")"
+spider_06950,spider,error_mysql,"(1054, ""Unknown column 'T2.architect_id' in 'on clause'"")"
+spider_06952,spider,error_mysql,"(1054, ""Unknown column 'T2.nationality' in 'where clause'"")"
+spider_06958,spider,error_mysql,"(1054, ""Unknown column 'T2.id' in 'on clause'"")"
+spider_06980,spider,resultado_vacio,
+spider_06981,spider,resultado_vacio,
