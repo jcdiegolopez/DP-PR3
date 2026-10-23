@@ -109,7 +109,7 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--config", choices=sorted(CONFIGS), required=True)
     ap.add_argument("--datos", type=Path, default=ROOT / "datos" / "entrenamiento.jsonl")
-    ap.add_argument("--eval", type=Path, default=ROOT / "datos" / "eval.jsonl",
+    ap.add_argument("--eval", type=Path, default=ROOT / "datos" / "eval_loss.jsonl",
                     help="optional eval file; otherwise a split field or 5 %% per schema")
     ap.add_argument("--salida", type=Path, default=None)
     ap.add_argument("--resultados", type=Path, default=ROOT / "resultados")
