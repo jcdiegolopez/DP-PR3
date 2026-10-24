@@ -64,3 +64,21 @@ Un solo factor cambia entre configuraciones: `target_modules`. Todo lo demás ig
 
 - Los conteos de parámetros salen de `print_trainable_parameters()` en la prueba temprana (no dependen de los datos).
 - Predicción concreta para contrastar con la evaluación de C: B supera a A en EX ponderada por al menos 0.03, y la diferencia se concentra en nivel medio y difícil; en fácil quedan casi iguales.
+
+## 2026-10-23 — G1LB3T0 (B, entrenamiento) — entrenamiento en Colab T4
+- La RTX 5050 quedó descartada para la corrida larga, así que entrené A y luego B en una T4 de Colab (fp16, batch 2×8, `max_length` 2688, semilla 2026), con `notebooks/colab_entrenar_t4.ipynb`. Los adapters, curvas y logs quedaron en Drive.
+- Problema: la T4 de Colab trae `torchao 0.10`, que `peft 0.21.2` rechaza con `ImportError`. La prueba rápida de 40 pares lo detectó antes de la corrida larga; se arregla con `pip uninstall -y torchao` (ya está en los dos notebooks de Colab).
+- La prueba de 40 pares dio ~336 tokens/s y 5.1 GB de memoria pico en la T4. Con eso estimé ~4 h por config, pero subestimaba: en la corrida completa el entrenamiento rindió 1,107 tokens/s en A y 842 tokens/s en B (ver tabla), así que tardó mucho menos.
+- Del entrenamiento se descartaron 18 de los 2,403 pares por pasar de 2,688 tokens (quedaron 2,385 pares de train y 142 de eval).
+
+| Config | Parámetros entrenables | Tiempo | Loss train final | Loss eval final | Memoria pico |
+|---|---|---|---|---|---|
+| A (atención) | 4,358,144 (0.28 %) | 1 h 14 min | 0.0663 | 0.1215 | 4.5 GB |
+| B (atención + MLP) | 18,464,768 (1.18 %) | 1 h 37 min | 0.0394 | 0.1234 | 5.2 GB |
+
+## 2026-10-23 — G1LB3T0 (B, entrenamiento) — resultado frente a la hipótesis
+- Parámetros: B tiene 4.2× los de A, como se esperaba. Tiempo: B tardó 31 % más (se esperaba ~20 %).
+- Loss de eval: B no mejora a A (0.1234 contra 0.1215), aunque su loss de train es mucho menor (0.039 contra 0.066). Puede estar sobreajustando, pero la eval son solo 142 pares de 8 bases de Spider y no mide EX.
+- En las curvas (`resultados/curvas_loss_AB.png`) las dos loss de eval son casi iguales y tocan su mínimo en el paso 150, al terminar la primera época: A 0.1164 y B 0.1099. En la segunda época la loss de train sigue bajando (A hasta 0.066, B hasta 0.039) mientras la de eval sube un poco, es decir, 2 épocas ya sobreajustan algo, más en B. Si la EX de C resulta floja, probar 1 época o un `lr` menor es la primera variación a considerar.
+- La hipótesis de que B supera a A por al menos 0.03 de EX, sobre todo en medio y difícil, **sigue sin contrastarse**: falta la evaluación de C sobre la validación propia. El adapter final (`adapter/`) se elige con esa EX, no con la loss.
+- Siguiente: pasar los dos adapters a C, copiar el mejor a `adapter/`, prueba en Colab limpio y fijar `requirements.txt`.

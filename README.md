@@ -115,6 +115,8 @@ Se usó un asistente de IA (Claude Code) en estas tareas, y se declara conforme 
 - Escribir los 12 esquemas SQL propios y los 565 pares pregunta–SQL sobre ellos.
 - Traducir al español 100 preguntas de Spider, y escribir los scripts de conversión, filtrado, traducción y población.
 - Redactar la documentación del dataset.
+- Escribir `prompt.py`, `solucion.py`, `scripts/entrenar.py` y los notebooks de entrenamiento y de prueba en Colab, y
+  ayudar a depurar el entrenamiento de las configuraciones LoRA A y B.
 
 Se usó además un modelo de traducción automática (`opus-mt-en-es`) para 1,900 preguntas. Ningún modelo ni API
 externa interviene al generar consultas en `solucion.py`. Toda consulta del dataset se ejecutó en MySQL 8.4.10 antes

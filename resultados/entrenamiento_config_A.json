@@ -1,0 +1,43 @@
+{
+  "config": "A",
+  "target_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj"
+  ],
+  "parametros_entrenables": 4358144,
+  "parametros_totales": 1548072448,
+  "porcentaje_entrenable": 0.2815,
+  "tiempo_segundos": 4448.0,
+  "tiempo_legible": "01:14:08",
+  "pasos": 300,
+  "pares_train": 2385,
+  "pares_eval": 142,
+  "descartados_max_length": {
+    "train": 18,
+    "eval": 0
+  },
+  "loss_train_final": 0.06634870767593384,
+  "loss_eval_final": 0.12152064591646194,
+  "tokens_entrenados": 4923832,
+  "tokens_por_segundo": 1107.0,
+  "memoria_pico_gb": 4.5,
+  "gpu": "Tesla T4",
+  "precision": "fp16",
+  "hiperparametros": {
+    "r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "learning_rate": 0.0002,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.03,
+    "epochs": 2,
+    "batch": 2,
+    "accum": 8,
+    "batch_efectivo": 16,
+    "max_length": 2688,
+    "seed": 2026
+  },
+  "adapter": "/content/drive/MyDrive/dp-pr3/config_A"
+}
