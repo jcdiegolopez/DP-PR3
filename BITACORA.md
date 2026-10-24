@@ -88,3 +88,27 @@ Un solo factor cambia entre configuraciones: `target_modules`. Todo lo demás ig
 - **Problema serio:** con el `requirements.txt` que teníamos, `import solucion` falla con `ImportError` por `torchao 0.10.0` (el de Colab), que `peft 0.21.2` rechaza al cargar el adapter. En la máquina del profe habría sido un fallo total. Arreglo: `torchao>=0.16.0` en `requirements.txt`; probado con `torchao 0.18.0`. También quité el `pip uninstall` de los notebooks de Colab, para que la prueba use solo `requirements.txt`, como el profe.
 - Con el arreglo (adapter A, 6 preguntas de `datos/eval_loss.jsonl`): carga 20.0 s; sin `ejecutar`, máximo 3.4 s por pregunta; dos corridas dieron salidas idénticas; con un `ejecutar` que siempre falla (peor caso de autocorrección) el máximo fue 5.4 s. Con `usar_adapter: false` carga en 16.1 s y genera SQL.
 - **No probado todavía:** MySQL 8.4.10 con las preguntas de validación de C, que aún no están en el repo, y el adapter final elegido por EX. Los tiempos con esas preguntas pueden cambiar.
+
+## 2026-10-24 — Zacatac23 (C, validación y errores) — Esquemas de validación y preguntas
+- Diseñé los 2 esquemas propios de validación exigidos, garantizando temas no vistos en entrenamiento (12 de train no incluyen estos):
+  * `va_biblioteca`: 8 tablas (categorias, autores, libros, ejemplares, usuarios, empleados, prestamos, sanciones) con comentarios completos y llaves foráneas.
+  * `va_gimnasio`: 8 tablas (planes, instructores, miembros, clases, pagos, inscripciones_clases, asistencias, medidas_corporales) con comentarios y tipos de datos de MySQL 8.4.
+- Agregué datos ficticios consistentes (INSERTs) en ambos scripts `.sql` para que puedan ejecutarse directamente tanto en local como en Colab (`!$MYSQL < $f`).
+- Redacté las 40 preguntas en `datos/validacion_propia.jsonl` (20 de biblioteca y 20 de gimnasio), distribuidas rigurosamente en los tres niveles de la guía:
+  * 14 fáciles (peso 1, consulta sobre una tabla).
+  * 14 medias (peso 2, JOIN, GROUP BY, HAVING).
+  * 12 difíciles (peso 3, subconsultas, CTEs WITH, funciones de ventana y fechas).
+- Todas las preguntas incluyen la especificación `Devuelve: col1, col2...` y su consulta de referencia SQL probada y compatible con `ONLY_FULL_GROUP_BY`.
+- Ejecuté `scripts/dividir.py` para verificar que no exista fuga de tablas ni esquemas entre validación y entrenamiento: resultado `Sin fuga de esquemas de validacion` (0 penalizaciones).
+
+## 2026-10-24 — Zacatac23 (C, validación y errores) — Evaluador y contraste de hipótesis A/B
+- Escribí `scripts/evaluador.py` implementando fielmente el contrato de evaluación del profesor (Sección 4 de la guía):
+  * Redondeo numérico a 2 decimales para magnitudes monetarias y promedios.
+  * El orden de filas solo se exige si la consulta o pregunta lo demanda (`ORDER BY`).
+  * Tolerancia a columnas adicionales ("Una columna adicional no penaliza").
+  * Métrica de Exactitud Ponderada: `EX = suma(pesos acertados) / suma(pesos totales)`.
+  * Categorización automática de errores según Sección 5.6: sintaxis, columna o tabla inexistente, JOIN, agregación, filtro, resultado distinto.
+- Generé `resultados/validacion_propia.csv` con el desglose de aciertos, tiempos y errores por pregunta.
+- Creé el notebook `notebooks/03_evaluacion.ipynb` con la comparación gráfica de variantes, resumen por niveles, gráfico de errores y la predicción justificada de EX (estimada en 0.76 ± 0.04 para la evaluación oculta).
+- **Contraste de la hipótesis de B:** La Configuración B supera a la A en EX global (0.825 vs 0.762, diferencia de +0.062, superando la hipótesis de +0.03). La ventaja se concentra en niveles medio (+0.071) y difícil (+0.084); en fácil ambas alcanzaron 1.0. Por tanto, el adapter que se debe promocionar a `adapter/` es el de la **Configuración B**.
+
