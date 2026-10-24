@@ -67,7 +67,7 @@ Un solo factor cambia entre configuraciones: `target_modules`. Todo lo demás ig
 
 ## 2026-10-23 — G1LB3T0 (B, entrenamiento) — entrenamiento en Colab T4
 - La RTX 5050 quedó descartada para la corrida larga, así que entrené A y luego B en una T4 de Colab (fp16, batch 2×8, `max_length` 2688, semilla 2026), con `notebooks/colab_entrenar_t4.ipynb`. Los adapters, curvas y logs quedaron en Drive.
-- Problema: la T4 de Colab trae `torchao 0.10`, que `peft 0.21.2` rechaza con `ImportError`. La prueba rápida de 40 pares lo detectó antes de la corrida larga; se arregla con `pip uninstall -y torchao` (ya está en los dos notebooks de Colab).
+- Problema: la T4 de Colab trae `torchao 0.10`, que `peft 0.21.2` rechaza con `ImportError`. La prueba rápida de 40 pares lo detectó antes de la corrida larga; en esa sesión lo resolví desinstalándolo (`pip uninstall -y torchao`); la solución definitiva quedó en `requirements.txt` (entrada siguiente).
 - La prueba de 40 pares dio ~336 tokens/s y 5.1 GB de memoria pico en la T4. Con eso estimé ~4 h por config, pero subestimaba: en la corrida completa el entrenamiento rindió 1,107 tokens/s en A y 842 tokens/s en B (ver tabla), así que tardó mucho menos.
 - Del entrenamiento se descartaron 18 de los 2,403 pares por pasar de 2,688 tokens (quedaron 2,385 pares de train y 142 de eval).
 
@@ -82,3 +82,9 @@ Un solo factor cambia entre configuraciones: `target_modules`. Todo lo demás ig
 - En las curvas (`resultados/curvas_loss_AB.png`) las dos loss de eval son casi iguales y tocan su mínimo en el paso 150, al terminar la primera época: A 0.1164 y B 0.1099. En la segunda época la loss de train sigue bajando (A hasta 0.066, B hasta 0.039) mientras la de eval sube un poco, es decir, 2 épocas ya sobreajustan algo, más en B. Si la EX de C resulta floja, probar 1 época o un `lr` menor es la primera variación a considerar.
 - La hipótesis de que B supera a A por al menos 0.03 de EX, sobre todo en medio y difícil, **sigue sin contrastarse**: falta la evaluación de C sobre la validación propia. El adapter final (`adapter/`) se elige con esa EX, no con la loss.
 - Siguiente: pasar los dos adapters a C, copiar el mejor a `adapter/`, prueba en Colab limpio y fijar `requirements.txt`.
+
+## 2026-10-23 — G1LB3T0 (B, entrenamiento) — prueba de `solucion.py` en Colab T4 limpio
+- Entorno: Colab T4 nueva (Python 3.13, torch 2.11.0+cu130), `git clone` del repo, `pip install -r requirements.txt` y el adapter A copiado a `adapter/`.
+- **Problema serio:** con el `requirements.txt` que teníamos, `import solucion` falla con `ImportError` por `torchao 0.10.0` (el de Colab), que `peft 0.21.2` rechaza al cargar el adapter. En la máquina del profe habría sido un fallo total. Arreglo: `torchao>=0.16.0` en `requirements.txt`; probado con `torchao 0.18.0`. También quité el `pip uninstall` de los notebooks de Colab, para que la prueba use solo `requirements.txt`, como el profe.
+- Con el arreglo (adapter A, 6 preguntas de `datos/eval_loss.jsonl`): carga 20.0 s; sin `ejecutar`, máximo 3.4 s por pregunta; dos corridas dieron salidas idénticas; con un `ejecutar` que siempre falla (peor caso de autocorrección) el máximo fue 5.4 s. Con `usar_adapter: false` carga en 16.1 s y genera SQL.
+- **No probado todavía:** MySQL 8.4.10 con las preguntas de validación de C, que aún no están en el repo, y el adapter final elegido por EX. Los tiempos con esas preguntas pueden cambiar.

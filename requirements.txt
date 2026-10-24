@@ -1,9 +1,12 @@
 # Runtime of solucion.py (what the grader installs).
 # torch is not pinned: Colab ships its own CUDA build and pinning would reinstall it.
-# PROVISIONAL: versions verified locally (Python 3.11, RTX 5050). Re-pin from
-# `pip freeze` after the clean Colab T4 test (notebooks/colab_prueba_t4.ipynb).
+# Verified on a clean Colab T4 (Python 3.13, torch 2.11.0+cu130): import + generation with
+# and without adapter. Not yet re-checked with the final adapter/ and the validation set.
 torch>=2.6
 transformers==5.20.2
 peft==0.21.2
 accelerate==1.15.0
 safetensors>=0.4
+# Colab ships torchao 0.10, which peft 0.21 rejects with ImportError when it injects LoRA
+# layers (import solucion fails). Tested with 0.18.0.
+torchao>=0.16.0
